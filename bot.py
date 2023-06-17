@@ -17,7 +17,7 @@ bl.basic_colorized_config(level=log_level)
 
 
 async def on_startup(bot: Bot, admin_ids: list[int]):
-    await broadcaster.broadcast(bot, admin_ids, "Бот був запущений")
+    await broadcaster.broadcast(bot, admin_ids, "Bot ishga tushdi!")
 
 
 def register_global_middlewares(dp: Dispatcher, config, session_pool=None):
